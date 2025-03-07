@@ -16,6 +16,7 @@
     <link rel="icon" sizes="16x16" href="assets/images/crumlinLogo.png">
 
     <!--StyleSheet-->
+    <link rel="stylesheet" href="https://public.codepenassets.com/css/reset-2.0.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://public.codepenassets.com/css/reset-2.0.min.css">
@@ -23,7 +24,7 @@
 
 <body>
     <!--Header-->
-    <header>
+    <header id="fixed">
         <a href="index.html"><h1 id="logo">Crumlin Youthreach</h1></a>
         <input type="checkbox" name="nav-toggle" id="nav-toggle">
         <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
@@ -56,21 +57,54 @@
 
     <!--Main Content-->
     <main>
-        <div class="pov">
-            <div class="tray">
-                <div class="die">
-                    <div class="cube">
-                        <div class="face" style="font-size:60px">YOUTH</div>
-                        <div class="face" style="font-size:58px">REACH</div>
-                        <div class="face" style="font-size:55px">CRUMLIN</div>      
-                    </div>
-                </div>  
-                <!-- clones will go here -->
+        <!--Parallax Cards-->
+        <div id="wrapper">
+            <div id="a" class="panels">
+                <h1>
+                    Welcome to Crumlin Youthreach!
+                </h1>
+                <h2>
+                    This Website is still under construction so please excuse any spelling errors or broken elements!
+                </h2>
+            </div>
+            <div id="b" class="panels">
+                <h1>
+                    SECOND Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium ducimus rem provident sit delectus ipsa qui, harum libero deleniti eum, repellat hic nisi quasi necessitatibus accusantium, veritatis voluptatem placeat saepe.
+                </h1>
+            </div>
+            <div id="c" class="panels">
+                <h1>
+                    THIRD Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima praesentium, eaque ad repellat iste aut, obcaecati porro earum facere, ullam reiciendis quas laudantium soluta facilis cum fugiat et id at?
+                </h1>
+            </div>
+            <div id="d" class="panels">
+                <h1>
+                    FOURTH Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus at a est iste neque iure vero beatae itaque? Officia ipsam quidem laboriosam reiciendis amet debitis tenetur. Ex adipisci enim aliquid?
+                </h1>
             </div>
         </div>
 
-        <!-- partial -->
-        <script src='https://unpkg.com/gsap@3/dist/gsap.min.js'></script><script  src="assets/js/script.js"></script>
+        <!--Spiral Animation-->
+        <!--Should remain pinned and unscolling to right side of screen-->
+        <div id="spiral-hold">
+            <div class="pov">
+                <div class="tray">
+                    <div class="die">
+                        <div class="cube">
+                        <div class="face" style="font-size:60px">YOUTH</div>
+                        <div class="face" style="font-size:58px">REACH</div>
+                        <div class="face" style="font-size:55px">CRUMLIN</div>      
+                        </div>
+                    </div>  
+                <!-- clones will go here -->
+                </div>
+            </div>
+        </div>
+
+        <!--Script Imports (Animation)-->
+        <script src='https://unpkg.com/gsap@3/dist/gsap.min.js'></script>
+        <script  src="assets/js/script.js"></script>
+        
     </main>
     
     <!--Footer-->
@@ -88,7 +122,7 @@
             <li>
                 <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit Our Instagram Page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
             </li>
-        </ul>
+        </ul>       
     </footer>
 
     <!--Font Awesome Import-->
