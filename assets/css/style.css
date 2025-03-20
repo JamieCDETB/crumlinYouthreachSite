@@ -172,14 +172,14 @@ main{
 #c{
     top: 190vh;
     z-index: 4;
-    height: 110vh;
+    height: 100vh;
     background-color: RGBA(46, 239, 124, 1);
 }
 
 #d{
-    top: 300vh;
+    top: 290vh;
     z-index: 5;
-    height: 100vh;
+    height: 110vh;
     background-color: RGBA(255, 108, 108, 1);
 }
 
@@ -313,7 +313,8 @@ body, pov {
 }
 
 .pay-table{
-    width: 100%;
+    bottom: 50rem;
+    margin-left: 10%;
 }
 
 .table-text{
@@ -329,9 +330,7 @@ body, pov {
 }
 
 .left-border{
-    margin-bottom: 0.5rem;
-    padding-bottom: 0.5rem;
-    border-left: 1px solid #171744;
+    padding-left: 1em;
 }
 
 
