@@ -165,14 +165,14 @@ main{
 #b{
     top: 100vh;
     z-index: 3;
-    height: 100vh;
+    height: 90vh;
     background-color: RGBA(255, 185, 46, 1);
 }
   
 #c{
-    top: 200vh;
+    top: 190vh;
     z-index: 4;
-    height: 100vh;
+    height: 110vh;
     background-color: RGBA(46, 239, 124, 1);
 }
 
@@ -231,34 +231,109 @@ body, pov {
 
 
 /*---------------------------------------------------------------------------------Hero Banner*/
-#hero{
-    height: 600px;
-    width: 100%;
-    background: url("../images/hero.jpg") no-repeat center center/cover;
-    position: relative;
-}
-
-#cover-text{
+.cover-text-bg{
     /*Using RGBA formatting to ensure result is partially transparent*/
     background-color: rgba(23, 23, 88, 0.7);
+    max-width: 90%;
+}
+
+.cover-text{
     text-align: center;
-    max-width: 90vw;
-    max-height: fit-content;
     padding: 20px;
 }
 
-#cover-text>h1{
+.cover-text>h1{
     font-family: 'Bungee', sans-serif;
     color: #ffffff;
     font-size: 200%;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
-#cover-text>h2, #cover-text>h3{
+.cover-text>h2, .cover-text>h3{
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     font-size: 125%;
-    padding-top: 25px;
 }
+
+.principal-list{
+    color: #ffffff;
+    padding-bottom: 2rem;
+}
+
+.principal-item{
+    padding: 0.5rem;
+    font-size: 150%;
+}
+
+.principal-item>h2{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.homepage-p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 125%;
+    padding-bottom: 1rem;
+    text-align:left;
+}
+
+.alt-heading>h2{
+    font-family: 'Bungee', sans-serif;
+    font-size: 150%;
+    padding: 0.5rem;
+    color: #ffffff;
+}
+
+.spacer{
+    padding: 0.5rem;
+}
+
+.list-hold{
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.left-list{
+    width: 45%;
+    float: left;
+}
+
+.right-list{
+    margin-left: 50%;
+    width: 45%;
+}
+
+.double-list{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+    padding-bottom: 0.75rem;
+    text-align:center;
+}
+
+.pay-table{
+    width: 100%;
+}
+
+.table-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 125%;
+    text-align:left;
+}
+
+.bottom-border{
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #171744;
+}
+
+.left-border{
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-left: 1px solid #171744;
+}
+
 
 /*-------------------------------------------------------------------------------------Footer*/
 
