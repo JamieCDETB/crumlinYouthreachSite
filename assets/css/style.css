@@ -233,6 +233,31 @@ body, pov {
     font-family: 'Bungee', sans-serif;
 }
 
+.test-button {
+    background-color: RGBA(46, 239, 124, 1);
+
+    width: 100vw;
+    height: 100px;
+
+    margin-top: 2px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: none;
+}
+
+#resource-list {
+    margin: 0;
+    width: 95vw;
+
+    background-color: RGBA(255, 185, 46, 1);
+}
+
+.d-none {
+  display: none;
+}
 
 /*---------------------------------------------------------------------------------Hero Banner*/
 .cover-text-bg{

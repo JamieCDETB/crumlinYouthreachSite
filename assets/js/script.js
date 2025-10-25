@@ -52,3 +52,16 @@ window.onload = window.onresize = ()=> {
   gsap.set('.tray', {height:h})
   gsap.set('.pov', {scale:innerHeight/h})
 }
+
+function toggleHide(clicked_id) {
+
+  if(clicked_id === "b1"){
+    var section = document.querySelectorAll('#section-1');
+  }
+
+  if(clicked_id === "b2"){
+    var section = document.querySelectorAll('#section-2');
+  }
+
+  section.forEach(el => el.classList.toggle('d-none'));
+}
