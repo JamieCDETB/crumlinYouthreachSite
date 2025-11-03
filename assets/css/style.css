@@ -247,7 +247,7 @@ body, pov {
 }
 
 .test-button {
-    background-color: RGBA(46, 239, 124, 0.75);
+    background-color: RGBA(46, 239, 124, 0.65);
 
     width: 100vw;
     height: 100px;
@@ -265,7 +265,7 @@ body, pov {
     margin: 0;
     width: 95vw;
 
-    background-color: RGBA(255, 185, 46, 0.75);
+    background-color: RGBA(255, 185, 46, 0.5);
 }
 
 .d-none {
