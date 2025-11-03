@@ -21,6 +21,11 @@ body{
     /*Generic Styling*/
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
+    background-image: radial-gradient(#6a5acd, #c54b8c, #b284be);
+}
+
+.mental-health{
+    
 }
 
 h1{
@@ -49,6 +54,14 @@ header{
     display: flex !important;
     justify-content: space-between !important;
     align-items: center !important;
+}
+
+.header-alt{
+    background-color: rgba(255, 108, 108, 0.75);
+}
+
+.footer-alt{
+    background-color: rgba(255, 108, 108, 0.75);
 }
 
 #logo{
@@ -121,7 +134,7 @@ main{
     flex: 1 0 auto;
     margin-top: 70px;
     height: 50%;
-    background-image: linear-gradient(#171744, #1AAAFB);
+    /*background-image: linear-gradient(#171744, #1AAAFB);*/
     background-repeat: no-repeat;
 }
 
@@ -234,7 +247,7 @@ body, pov {
 }
 
 .test-button {
-    background-color: RGBA(46, 239, 124, 1);
+    background-color: RGBA(46, 239, 124, 0.75);
 
     width: 100vw;
     height: 100px;
@@ -252,7 +265,7 @@ body, pov {
     margin: 0;
     width: 95vw;
 
-    background-color: RGBA(255, 185, 46, 1);
+    background-color: RGBA(255, 185, 46, 0.75);
 }
 
 .d-none {
